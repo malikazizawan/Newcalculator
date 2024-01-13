@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="firsth">
+            <h1>CALCULATOR</h1>
+        </div>
+        
+        <div class="main">
+            <div class="box">
+                <div>
+                    <div>
+                        <input readonly type="text" id="inp">
+                    </div>
+                </div>
+            
+                <div>
+                    <button class="clr" onclick="clr()">Clear All</button>
+                    <button class="clr" onclick="myclr()">Clear</button>
+                </div>
+                <div>
+                    <button onclick="awan(7)">7</button>
+                    <button onclick="awan(8)">8</button>
+                    <button onclick="awan(9)">9</button>
+                    <button class="samecolor" onclick="awan('+')">+</button>
+                </div>
+            
+                <div>
+                    <button onclick="awan(4)">4</button>
+                    <button onclick="awan(5)">5</button>
+                    <button onclick="awan(6)">6</button>
+                    <button class="samecolor" onclick="awan('-')">-</button>
+                </div>
+            
+                <div>
+                    <button onclick="awan(1)">1</button>
+                    <button onclick="awan(2)">2</button>
+                    <button onclick="awan(3)">3</button>
+                    <button class="samecolor" onclick="awan('/')">/</button>
+                </div>
+            
+                <div>
+                    <button onclick="awan(0)">0</button>
+                    <button class="samecolor" onclick="awan('*')">x</button>
+                    <button class="samecolor" onclick="eq()">=</button>
+                    <button class="samecolor">%</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="js/app.js"></script>
+</body>
+</html>
